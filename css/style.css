@@ -93,6 +93,11 @@ li {
   padding: 0;
 }
 
+input {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -430,7 +435,7 @@ body {
 }
 
 .get-in-touch__title {
-  margin-top: 120px;
+  margin-top: 121px;
   margin-bottom: 35px;
   width: 350px;
   color: var(--textColor);
@@ -470,9 +475,18 @@ body {
 }
 
 .news-letter__input {
+  padding-left: 16px;
   width: 250px;
   height: 40px;
   border: 1px solid #979797;
+}
+
+.news-letter__input::placeholder {
+  color: var(--textColor);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.07px;
 }
 
 .services__btn {}
