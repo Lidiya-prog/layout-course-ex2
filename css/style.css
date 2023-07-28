@@ -449,7 +449,10 @@ body {
 
 .services__btn {}
 
-.news-letter {}
+.news-letter {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
 
 .news-letter__container {
   padding: 26px 0;
@@ -490,3 +493,168 @@ body {
 }
 
 .services__btn {}
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--white-color);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer__content {
+  background: #141A20;
+}
+
+.footer__socials {
+  margin-top: 37px;
+}
+
+.footer__flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 49px;
+}
+
+.footer__company {
+  width: 250px;
+  margin-right: 69px;
+}
+
+.footer__title {
+  margin-bottom: 10px;
+  color: var(--white-color);
+  text-align: start;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.846px;
+  text-transform: uppercase;
+}
+
+.footer__logo {
+  padding-top: 9px;
+  margin-bottom: 15px;
+}
+
+.logo {}
+
+.footer__text {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+}
+
+.footer__links-wrapper {
+  display: flex;
+  gap: 35px;
+}
+
+.footer__links {
+  min-width: 262px;
+  width: 262px;
+  margin-right: 58px;
+}
+
+.footer__group {}
+
+.footer__item {}
+
+.footer__link {
+  color: var(--white-color);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  /* 227.273% */
+  letter-spacing: 0.846px;
+  text-transform: uppercase;
+}
+
+.footer__contacts {
+  width: 128px;
+  margin-right: 47px;
+  color: var(--white-color);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* letter-spacing: 0.846px; */
+}
+
+.footer_address {
+  padding-top: 3px;
+}
+
+.footer_address,
+.footer__phone {
+  margin-bottom: 10px;
+}
+
+.footer__phone a {
+  color: var(--white-color);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* letter-spacing: 0.846px; */
+}
+
+.phone {}
+
+.footer__email a {
+  color: var(--white-color);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* letter-spacing: 0.846px; */
+}
+
+.email {}
+
+.footer__copyright {
+  height: 60px;
+}
+
+.footer__desc {
+  margin: 22px auto;
+}
+
+.footer__media {}
+
+.media {}
+
+.media__wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.media__item {
+  width: 12px;
+  height: 12px;
+}
+
+.media__link {}
+
+.media__wrapper:nth-child(1) {
+  background-image: url(../images/facebook.png);
+  /* background: url("../images/bg.png"); */
+  background-repeat: no-repeat;
+}
+
+.media__wrapper:nth-child(2) {
+  background-image: url(../images/twitter.png);
+  background-repeat: no-repeat;
+}
+
+.media__wrapper:nth-child(3) {
+  background-image: url(../images/google.png);
+  background-repeat: no-repeat;
+}
